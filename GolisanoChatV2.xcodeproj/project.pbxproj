@@ -19,6 +19,7 @@
 		626F8436274ADB9D00B15CB2 /* NewChatController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626F8430274ADB9D00B15CB2 /* NewChatController.swift */; };
 		626F8437274ADB9D00B15CB2 /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626F8431274ADB9D00B15CB2 /* RegisterController.swift */; };
 		626F8438274ADB9D00B15CB2 /* VideoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626F8432274ADB9D00B15CB2 /* VideoController.swift */; };
+		626F843B274AE4CC00B15CB2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626F843A274AE4CC00B15CB2 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		626F8430274ADB9D00B15CB2 /* NewChatController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewChatController.swift; sourceTree = "<group>"; };
 		626F8431274ADB9D00B15CB2 /* RegisterController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
 		626F8432274ADB9D00B15CB2 /* VideoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoController.swift; sourceTree = "<group>"; };
+		626F843A274AE4CC00B15CB2 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 		626F83FA274AD62200B15CB2 /* GolisanoChatV2 */ = {
 			isa = PBXGroup;
 			children = (
+				626F843A274AE4CC00B15CB2 /* Extensions.swift */,
 				626F8439274ADC0300B15CB2 /* Delegates_etc */,
 				626F842C274ADB6400B15CB2 /* ViewModels */,
 				626F842B274ADB3F00B15CB2 /* Controllers */,
@@ -201,6 +204,7 @@
 				626F8400274AD62200B15CB2 /* ChatController.swift in Sources */,
 				626F8433274ADB9D00B15CB2 /* LoginController.swift in Sources */,
 				626F8436274ADB9D00B15CB2 /* NewChatController.swift in Sources */,
+				626F843B274AE4CC00B15CB2 /* Extensions.swift in Sources */,
 				626F8437274ADB9D00B15CB2 /* RegisterController.swift in Sources */,
 				626F83FC274AD62200B15CB2 /* AppDelegate.swift in Sources */,
 				626F83FE274AD62200B15CB2 /* SceneDelegate.swift in Sources */,
@@ -355,6 +359,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GolisanoChatV2/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Need access to the camera";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -382,6 +387,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GolisanoChatV2/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Need access to the camera";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

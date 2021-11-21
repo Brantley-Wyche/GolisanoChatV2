@@ -21,13 +21,13 @@ class ChatController: UIViewController {
         
         if !didLogIn{
             
-            let logVC = LoginController()
+            let logC = LoginController()
             
-            let nav = UINavigationController(rootViewController: logVC)
+            let nav = UINavigationController(rootViewController: logC)
             
             nav.modalPresentationStyle = .fullScreen
             
-            present(nav, animated: true)
+            present(nav, animated: false)
         }
     }
     
